@@ -37,7 +37,7 @@ export default defineConfig({
         manualChunks: {
           'vendor': ['react', 'react-dom'],
           'redux': ['@reduxjs/toolkit', 'react-redux'],
-          'ui': ['@radix-ui/react-button', '@radix-ui/react-dialog'],
+         'ui': ['@radix-ui/react-dialog'],
         }
       }
     }
